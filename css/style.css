@@ -1,0 +1,63 @@
+html:lang(fr) .fr, html:lang(en) .en {
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.btn {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border-color: rgba(255, 255, 255, 0.2);*/
+    border-color: rgb(0, 89, 139);
+}
+
+.btn:hover {
+    /*color: rgba(255, 255, 255, 0.8);*/
+    color: rgba(164, 197, 58, 1);
+    text-decoration: none;
+    background-color: rgb(0, 89, 139);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.page-header {
+    color:rgb(0, 89, 139);
+    text-align: center;
+    background: url(../img/AiC_logo_TRSP_3.png) center center no-repeat, linear-gradient(rgb(199, 227, 241) 0%, rgb(255, 255, 255) 100%);
+    background-size: calc(100%);
+ }
+
+ .page-header h1 {
+    font-size:80px;
+    text-shadow:0px 4px 0px white, 0px -4px 0px white, 4px 0px 0px white, -4px 0px 0px white;
+    margin : 0;
+    padding : 0;
+    line-height: 1;
+ }
+
+  .page-header h1 span {
+    color:rgba(164, 197, 58, 1);
+  }
+
+  .page-header h2 {
+
+    color:rgb(0, 89, 139);
+    font-size:32px;
+    font-weight:bold;
+    opacity:1;
+    text-shadow:0px 1px 0px white, 0px -1px 0px white, 1px 0px 0px white, -1px 0px 0px white;
+
+ }
+
+ @media screen and (min-width: 64em)
+ {
+    .page-header {
+        padding: 4rem 6rem;
+    }
+ }
+
+
+ @media screen and (max-width: 60em){
+
+    .page-header {
+        background: linear-gradient(rgb(199, 227, 241) 0%, rgb(255, 255, 255) 100%);
+    }
+ }

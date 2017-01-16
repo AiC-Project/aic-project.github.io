@@ -1,0 +1,19 @@
+# Setup
+title: AiC 2.0
+email: aic-project@alterway.fr
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Jonathan Rivalan - AiC Project Manager
+  url:        http://alterway.fr 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+
+
