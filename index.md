@@ -24,7 +24,7 @@ The Saas AiC 2.0 solution introduces two main features to its user: the live cam
 
 Thanks to the live campaign, you can interact with an Android virtual machine from the AiC 2.0 web interface directly in your browser without any additional plugins.
 
-![AiC Live Campaign](/img/AiC_live_campaign_new.gif){:class="img-responsive"}
+![AiC Live Campaign](/img/AiC_live_campaign_640.gif){:class="img-responsive"}
 
 __In a few words, _it is Android in the browser.___
 
