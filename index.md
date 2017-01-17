@@ -95,7 +95,7 @@ In summary, the AiC 2.0 DSL allows to :
 There are two ways to use AiC 2.0:
 
 - request access to [the online beta test](https://goo.gl/forms/mwM85JuVu5oWSdHx2)
-- install the solution from sources [Github](https://github.com/AiC-Project)
+- install the solution from [Github sources](https://github.com/AiC-Project)
 
 
 
