@@ -3,11 +3,16 @@ html:lang(fr) .fr, html:lang(en) .en {
     border: 1px solid white;
 }
 
+.trans {
+    transition: 0.2s all ease;
+}
+
 .btn {
     color: rgba(0, 0, 0, 0.7);
     background-color: rgba(255, 255, 255, 0.8);
     /*border-color: rgba(255, 255, 255, 0.2);*/
     border-color: rgb(0, 89, 139);
+    display: inline-block;
 }
 
 .btn:hover {
@@ -16,12 +21,44 @@ html:lang(fr) .fr, html:lang(en) .en {
     text-decoration: none;
     background-color: rgb(0, 89, 139);
     border-color: rgba(255, 255, 255, 0.3);
+
 }
+
+.btn.lang {
+  background-size: 135%;
+  background-position: 45%;
+  filter: grayscale(100%);
+  opacity:0.5;
+  font-weight:bold;
+}
+
+.btn.lang:hover, .btn.lang.active {
+  filter: grayscale(10%) brightness(115%);
+  opacity:0.7;
+  border-color: rgb(0, 89, 139);
+  color:black;
+  text-shadow: 1px 1px 1px white;
+}
+
+.btn.lang.active {
+  opacity:0.9;
+}
+
+.btn.en {
+  background-image: url(../img/gb.svg);
+}
+
+.btn.fr {
+  background-image: url(../img/fr.svg);
+
+}
+
+
 
 .page-header {
     color:rgb(0, 89, 139);
     text-align: center;
-    background: url(../img/AiC_logo_TRSP_3.png) center center no-repeat, linear-gradient(rgb(199, 227, 241) 0%, rgb(255, 255, 255) 100%);
+    background: url(../img/AiC_logo_TRSP_3.png) 120px 45% no-repeat, linear-gradient(rgb(199, 227, 241) 0%, rgb(255, 255, 255) 100%);
     background-size: calc(100%);
  }
 
@@ -43,7 +80,7 @@ html:lang(fr) .fr, html:lang(en) .en {
     font-size:32px;
     font-weight:bold;
     opacity:1;
-    text-shadow:0px 1px 0px white, 0px -1px 0px white, 1px 0px 0px white, -1px 0px 0px white;
+    text-shadow:0px 2px 0px white, 0px -2px 0px white, 2px 0px 0px white, -2px 0px 0px white;
 
  }
 
@@ -53,6 +90,13 @@ html:lang(fr) .fr, html:lang(en) .en {
         padding: 4rem 6rem;
     }
  }
+
+ @media screen and (max-width: 64em) and (min-width: 42em){
+    .page-header {
+        padding: 3rem 4rem; 
+        background: linear-gradient(rgb(199, 227, 241) 0%, rgb(255, 255, 255) 100%);
+    }
+}
 
 
  @media screen and (max-width: 60em){

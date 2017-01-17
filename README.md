@@ -1,3 +1,14 @@
+# AiC Project website
+
+This website aims to give a high level description of the project, and is not an online version of the application, for which access can be ask at this adresse : aic-project@alterway.fr
+
+TODO : 
+- add correct links
+- add documentation link
+- add the async campaign gif
+
+---
+
 # Jekyll Cayman theme
 
 This is a [Jekyll][1] theme for [@jasonlong][2]'s [Cayman theme][4] on [GitHub Pages][3].

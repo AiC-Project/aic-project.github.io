@@ -6,15 +6,17 @@ langTitle: Français
 ref: home
 ---
 
-### Améliorer la qualité et les coûts du développement Android
+## Améliorer la qualité et les coûts du développement Android
 
 AiC 2.0 a pour objectif de faciliter la qualification à grande échelle des applications Android.
 
 Techniquement il s’agit de proposer une réponse à la multiplication des terminaux physiques (smartphones, tablettes, TV connectées) et des versions du système d’exploitation Android, à travers une solution Cloud complète et simple d’utilisation.
 
+Cette solution repose fortement sur la mise à disposition de machines virtuelles Android.
+
 L’avantage de cette approche est d’accélérer les temps de déploiement et de configuration des environnements de test Android, tout en réduisant considérablement l’investissement et la maintenance d'un parc de périphériques physiques.
 
-### Effectuer des tests Android manuels ou automatisés
+## Effectuer des tests Android manuels ou automatisés
 
 La solution Saas AiC 2.0 présente à son utilisateur deux grandes fonctionnalités : la campagne "live" et la campagne asynchrone.
 

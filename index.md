@@ -6,14 +6,128 @@ langTitle: English
 ref: home
 ---
 
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+## Improve Android development quality and costs 
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+AiC 2.0 goal is to ease large scale review for Android applications. 
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+Technically it means to offer an answer to physical devices (smartphones, tablets, Connected TVs) and Android versions multiplication, thanks to an easy to use, fully featured, Cloud-oriented solution. 
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+This solution relies heavily on the provision of Android virtual machines.
+
+One of the advantage for this approach is to accelerate Android test environments deployment and configuration time while dramatically reducing the investment and maintenance of a physical devices fleet.
+
+## Run manual or automated Android tests
+
+The Saas AiC 2.0 solution introduces two main features to its user: the live campaign and the asynchronous campaign.
+
+### Live campaign
+
+Thanks to the live campaign, you can interact with an Android virtual machine from the AiC 2.0 web interface directly in your browser without any additional plugins.
+
+![AiC Live Campaign](/img/AiC_live_campaign.gif){:class="img-responsive"}
+
+__In a few words, _it is Android in the browser.___
+
+
+Among the features of the live campaign:
+
+- choice of Android version (phone or tablet, KitKat or Lollipop)
+- configuration of screen resolution and pixel density
+- real time apks installation
+- Android sensors stimulation from the web interface (including GSM and Wifi)
+- possibility to switch to full screen or to adapt the view to the size of your screen
+
+### Asynchronous Campaign
+
+Using the asynchronous campaign, you can schedule a campaign that will run your UiAutomator or AiC 2.0 tests on a large scale of configurable Android virtual instances. The virtual instances are visually accessible during the execution of the test set, and the results are then presented in the Junit format.
+
+![AiC Live Campaign](/img/AiC_live_campaign.gif){:class="img-responsive"}
+
+__In a few words, _it is Android in the Cloud.___
+
+
+Among the features of the asynchronous campaign:
+
+- possibility of using the native tests UiAutomator or the dedicated DSL AiC 2.0
+- choice of Android versions on which to run the tests
+- real-time notifications of the campaign's progress
+- virtual instances accessible during test execution
+- campaign results saved and presented in Junit format
+
+
+### The DSi AiC 2.0
+The AiC 2.0 DSL is a project-specific innovation allowing an user to express a functional test in natural language close to Gherkin. Compared to the traditional Android test solutions (UiAutomator, Espresso, Junit), the AiC 2.0 DSL allows to express functional tests while specifying the state of the system sensors (including Bluetooth, NFC).
+
+{% highlight gherkin%}
+Feature: "Example feature"
+
+    Scenario: "Minimal example scenario"
+        Set battery level at 5
+        Check if "Low battery" exists
+    End
+
+    Scenario: "More complex example scenario"
+        Click on “Sensor”
+        Scroll from "Picture" to "Photometer"
+        Scroll from "Photometer" to "Gyroscope
+        Click on "Proximity Sensor"
+        Type "Value is going to change..." into "R.id.input_exemple"
+        Set sensor "TYPE_PROXIMITY" at 18
+        Replace "It's working !" into "R.id.input_exemple"
+        Click on "Proximity Sensor"
+        Scroll from "Proximity Sensor" to "Bluetooth"
+        Click on "Ambient Thermometer"
+    End
+
+End
+{% endhighlight %}
+
+
+In summary, the AiC 2.0 DSL allows to :
+
+- express Android functional tests in  Gherkin-like natural language
+- describe the state of the Android system dynamically within the test sequence
+- compile a test apk that can then be used in an asynchronous campaign
+
+
+## Using the AiC 2.0 solution
+
+There are two ways to use AiC 2.0:
+
+- request access to the online beta test *** link form ***
+- install the solution from sources *** link github **
+
+
+
+## Consortium and Funding
+
+### The partners behind the project
+The AiC 2.0 project consortium brings together the following industrial and academic partners:
+
+- Alter Way, industrial partner and pilot of the project
+- Zenika, industrial partner
+- Liafa, academic partner
+- Lip6, academic partner
+- Thales, large user
+
+![AiC Partners Logo](/img/AiC_partners_logo.png){:class="img-responsive"}
+
+
+### Funding actors
+The AiC 2.0 project is a collaborative R & D project resulting from the call for projects [FUI # 16](http://www.systematic-paris-region.org/fr/actualites/le-16e-appel-a-projets -fui-retains-12-projects-labellises-by-systematic-paris-region).
+
+The FUI (Unified Interministerial Funds) is a program to support applied research to help develop new products and services that can be put on the market in the short or medium term.
+
+
+It allows to finance "collaborative" R & D projects (involving, for example, large companies, SMEs and laboratories), following their labeling by the competitiveness clusters.
+
+The financing is then managed by the BPI in association with the communities, for the project AiC 2.0, the Ile de France region.
+
+![AiC Financial Logo](/img/AiC_financial_logo.png){:class="img-responsive"}
+
+
+### Open Source Effort
+The code produced in the project will be released under open source license, in accordance with [the GTLL agreement](http://www.systematic-paris-region.org/fr/logiciel-libre/propos/charte).
+
+### FUI Program Calendar
+Started in December 2013, the project program is underway and will stop in October 2017.
