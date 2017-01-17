@@ -41,7 +41,7 @@ Among the features of the live campaign:
 
 Using the asynchronous campaign, you can schedule a campaign that will run your UiAutomator or AiC 2.0 tests on a large scale of configurable Android virtual instances. The virtual instances are visually accessible during the execution of the test set, and the results are then presented in the Junit format.
 
-![AiC Live Campaign](/img/AiC_live_campaign_new.gif){:class="img-responsive"}
+![AiC Async Campaign](/img/AiC_async_campaign_640.gif){:class="img-responsive"}
 
 __In a few words, _it is Android in the Cloud.___
 

@@ -4,7 +4,6 @@ This website aims to give a high level description of the project, and is not an
 
 TODO : 
 - add documentation link
-- add the async campaign gif
 ---
 
 # Jekyll Cayman theme
