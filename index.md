@@ -114,7 +114,7 @@ The AiC 2.0 project consortium brings together the following industrial and acad
 
 
 ### Funding actors
-The AiC 2.0 project is a collaborative R & D project resulting from the call for projects [FUI # 16](http://www.systematic-paris-region.org/fr/actualites/le-16e-appel-a-projets -fui-retains-12-projects-labellises-by-systematic-paris-region).
+The AiC 2.0 project is a collaborative R & D project resulting from the call for projects [FUI # 16](http://www.systematic-paris-region.org/fr/actualites/le-16e-appel-a-projets-fui-retient-12-projets-labellises-par-systematic-paris-region).
 
 The FUI (Unified Interministerial Funds) is a program to support applied research to help develop new products and services that can be put on the market in the short or medium term.
 

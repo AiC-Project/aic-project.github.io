@@ -24,7 +24,7 @@ La solution Saas AiC 2.0 présente à son utilisateur deux grandes fonctionnalit
 
 Grâce à la campagne "live", vous pouvez interagir avec une instance virtuelle Android depuis l'interface web AiC 2.0, directement dans votre navigateur, sans plugins supplémentaires.
 
-![AiC Live Campaign](/img/AiC_live_campaign.gif){:class="img-responsive"}
+![AiC Live Campaign](/img/AiC_live_campaign_new.gif){:class="img-responsive"}
 
 __En quelques mots, _c'est Android dans le navigateur.___
 
@@ -40,7 +40,7 @@ Parmis les fonctionnalités de la campagne live :
 
 Grâce à la campagne asynchrone, vous pouvez programmer une campagne qui éxécutera vos tests UiAutomator ou AiC 2.0 à grande échelle sur un parc d'instances virtuelles Android configurables. Les instances virtuelles sont accessibles visuellement durant l'exécution du jeu de tests, et les résultats sont ensuite présentés au format Junit. 
 
-![AiC Live Campaign](/img/AiC_live_campaign.gif){:class="img-responsive"}
+![AiC Live Campaign](/img/AiC_live_campaign_new.gif){:class="img-responsive"}
 
 __En quelques mots, _c'est Android dans le Cloud.___
 
