@@ -1,12 +1,11 @@
 # AiC Project website
 
-This website aims to give a high level description of the project, and is not an online version of the application, for which access can be ask at this adresse : aic-project@alterway.fr
+This website aims to give a high level description of the project, and is not an online version of the application, for which access can be asked at this adress : aic-project@alterway.fr
 
 TODO : 
-- add correct links
 - add documentation link
 - add the async campaign gif
-
+- add favicon
 ---
 
 # Jekyll Cayman theme

@@ -24,6 +24,20 @@ html:lang(fr) .fr, html:lang(en) .en {
 
 }
 
+/*
+
+.btn.lang {
+    background-repeat: no-repeat;
+    width: 15%;
+    background-size: 100%;
+    background-position: 45%;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+*/
+
 .btn.lang {
   background-size: 135%;
   background-position: 45%;
@@ -33,15 +47,16 @@ html:lang(fr) .fr, html:lang(en) .en {
 }
 
 .btn.lang:hover, .btn.lang.active {
-  filter: grayscale(10%) brightness(115%);
-  opacity:0.7;
+  filter: grayscale(10%) brightness(125%);
+  opacity:0.9;
   border-color: rgb(0, 89, 139);
   color:black;
   text-shadow: 1px 1px 1px white;
 }
 
 .btn.lang.active {
-  opacity:0.9;
+    filter: grayscale(0%) brightness(115%);
+    opacity:1;
 }
 
 .btn.en {
@@ -52,8 +67,6 @@ html:lang(fr) .fr, html:lang(en) .en {
   background-image: url(../img/fr.svg);
 
 }
-
-
 
 .page-header {
     color:rgb(0, 89, 139);
@@ -105,3 +118,16 @@ html:lang(fr) .fr, html:lang(en) .en {
         background: linear-gradient(rgb(199, 227, 241) 0%, rgb(255, 255, 255) 100%);
     }
  }
+
+
+ @media screen and (max-width: 42em){
+    .btn.lang {
+        background-repeat: no-repeat;
+        width: 15%;
+        background-size: 120%;
+        background-position: 45%;
+        filter: grayscale(100%);
+        opacity: 0.5;
+        font-weight: bold;
+    }
+}

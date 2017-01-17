@@ -20,7 +20,7 @@ L’avantage de cette approche est d’accélérer les temps de déploiement et 
 
 La solution Saas AiC 2.0 présente à son utilisateur deux grandes fonctionnalités : la campagne "live" et la campagne asynchrone.
 
-#### Campagne "live"
+### Campagne "live"
 
 Grâce à la campagne "live", vous pouvez interagir avec une instance virtuelle Android depuis l'interface web AiC 2.0, directement dans votre navigateur, sans plugins supplémentaires.
 
@@ -52,7 +52,7 @@ Parmis les fonctionnalités de la campagne asynchrone :
 - instances virtuelles accessibles durant l'exécution des tests
 - résultats des campagnes sauvegardés et présentés au format Junit
 
-#### Le DSL AiC 2.0
+### Le DSL AiC 2.0
 Le DSL AiC 2.0 est une innovation spécifique au projet permettant à un utilisateur d'exprimer un test fonctionnel en langage naturel proche de Gherkin. Par rapport aux solutions de tests classique Android (UiAutomator, Espresso, Junit), le DSL AiC 2.0 permet d'exprimer des tests fonctionnels tout en précisant l'état des senseurs système (dont Bluetooth, NFC).
 
 {% highlight gherkin%}
@@ -90,8 +90,10 @@ En résumé, le DSL AiC 2.0 permet de :
 
 Deux possibilités s'offrent à vous pour utiliser AiC 2.0 :
 
-- demander un accès à la bêta-test en ligne ***lien formulaire***
-- installer la solution depuis les sources ***lien github***
+- demander un accès à [la bêta-test en ligne ](https://goo.gl/forms/oZpycSo4W7rZmTos2)
+- installer la solution depuis les sources [Github](https://github.com/AiC-Project)
+
+
 
 ## Consortium et financement
 
@@ -117,10 +119,10 @@ Le financement est ensuite géré par la BPI en association avec les collectivit
 
 ![AiC Financial Logo](/img/AiC_financial_logo.png){:class="img-responsive"}
 
-#### Engagement Open Source
+### Engagement Open Source
 Le code réalisé dans le cadre projet sera reversé sous licence Open Source, conformément à [la charte du GTLL](http://www.systematic-paris-region.org/fr/logiciel-libre/propos/charte).
 
-#### Calendrier du programme FUI
+### Calendrier du programme FUI
 Démarré en Décembre 2013, le programme du projet est en cours et se concluera en Octobre 2017.
 
 
