@@ -24,7 +24,7 @@ The Saas AiC 2.0 solution introduces two main features to its user: the live cam
 
 Thanks to the live campaign, you can interact with an Android virtual machine from the AiC 2.0 web interface directly in your browser without any additional plugins.
 
-![AiC Live Campaign](/img/AiC_live_campaign.gif){:class="img-responsive"}
+![AiC Live Campaign](/img/AiC_live_campaign_new.gif){:class="img-responsive"}
 
 __In a few words, _it is Android in the browser.___
 
@@ -41,7 +41,7 @@ Among the features of the live campaign:
 
 Using the asynchronous campaign, you can schedule a campaign that will run your UiAutomator or AiC 2.0 tests on a large scale of configurable Android virtual instances. The virtual instances are visually accessible during the execution of the test set, and the results are then presented in the Junit format.
 
-![AiC Live Campaign](/img/AiC_live_campaign.gif){:class="img-responsive"}
+![AiC Live Campaign](/img/AiC_live_campaign_new.gif){:class="img-responsive"}
 
 __In a few words, _it is Android in the Cloud.___
 
@@ -55,7 +55,7 @@ Among the features of the asynchronous campaign:
 - campaign results saved and presented in Junit format
 
 
-### The DSi AiC 2.0
+### The AiC 2.0 DSL
 The AiC 2.0 DSL is a project-specific innovation allowing an user to express a functional test in natural language close to Gherkin. Compared to the traditional Android test solutions (UiAutomator, Espresso, Junit), the AiC 2.0 DSL allows to express functional tests while specifying the state of the system sensors (including Bluetooth, NFC).
 
 {% highlight gherkin%}
