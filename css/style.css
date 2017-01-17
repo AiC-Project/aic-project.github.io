@@ -16,7 +16,6 @@ html:lang(fr) .fr, html:lang(en) .en {
 }
 
 .btn:hover {
-    /*color: rgba(255, 255, 255, 0.8);*/
     color: rgba(164, 197, 58, 1);
     text-decoration: none;
     background-color: rgb(0, 89, 139);
@@ -24,25 +23,11 @@ html:lang(fr) .fr, html:lang(en) .en {
 
 }
 
-/*
-
-.btn.lang {
-    background-repeat: no-repeat;
-    width: 15%;
-    background-size: 100%;
-    background-position: 45%;
-    filter: grayscale(100%);
-    opacity: 0.5;
-    font-weight: bold;
-}
-
-*/
-
 .btn.lang {
   background-size: 135%;
   background-position: 45%;
-  filter: grayscale(100%);
-  opacity:0.5;
+  filter: grayscale(50%) brightness(150%);
+  opacity:0.8;
   font-weight:bold;
 }
 
