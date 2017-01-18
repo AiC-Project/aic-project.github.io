@@ -29,7 +29,7 @@ Thanks to the live campaign, you can interact with an Android virtual machine fr
 __In a few words, _it is Android in the browser.___
 
 
-Among the features of the live campaign:
+Among the features of the live campaign :
 
 - choice of Android version (phone or tablet, KitKat or Lollipop)
 - configuration of screen resolution and pixel density
@@ -46,7 +46,7 @@ Using the asynchronous campaign, you can schedule a campaign that will run your 
 __In a few words, _it is Android in the Cloud.___
 
 
-Among the features of the asynchronous campaign:
+Among the features of the asynchronous campaign :
 
 - possibility of using the native tests UiAutomator or the dedicated DSL AiC 2.0
 - choice of Android versions on which to run the tests
@@ -92,19 +92,19 @@ In summary, the AiC 2.0 DSL allows to :
 
 ## Using the AiC 2.0 solution
 
-There are two ways to use AiC 2.0:
+There are two ways to use AiC 2.0 :
 
 - request access to [the online beta test](https://goo.gl/forms/mwM85JuVu5oWSdHx2)
-- install the solution from [Github sources](https://github.com/AiC-Project)
+- install the solution from the [Github sources](https://github.com/AiC-Project)
 
 
 
 ## Consortium and Funding
 
 ### The partners behind the project
-The AiC 2.0 project consortium brings together the following industrial and academic partners:
+The AiC 2.0 project consortium brings together the following industrial and academic partners :
 
-- Alter Way, industrial partner and pilot of the project
+- Alter Way, industrial partner and project pilot
 - Zenika, industrial partner
 - Liafa, academic partner
 - Lip6, academic partner
@@ -114,12 +114,12 @@ The AiC 2.0 project consortium brings together the following industrial and acad
 
 
 ### Funding actors
-The AiC 2.0 project is a collaborative R & D project resulting from the call for projects [FUI # 16](http://www.systematic-paris-region.org/fr/actualites/le-16e-appel-a-projets-fui-retient-12-projets-labellises-par-systematic-paris-region).
+The AiC 2.0 project is a collaborative R&D project resulting from the call for projects [FUI #16](http://www.systematic-paris-region.org/fr/actualites/le-16e-appel-a-projets-fui-retient-12-projets-labellises-par-systematic-paris-region).
 
-The FUI (Unified Interministerial Funds) is a program to support applied research to help develop new products and services that can be put on the market in the short or medium term.
+The FUI (Unified Interministerial Funds) is a program aiming to support applied research to help develop new products and services that can be put on the market in the short or medium term.
 
 
-It allows to finance "collaborative" R & D projects (involving, for example, large companies, SMEs and laboratories), following their labeling by the competitiveness clusters.
+It allows to finance "collaborative" R&D projects (involving, for example, large companies, SMEs and laboratories), following their labeling by the competitiveness clusters.
 
 The financing is then managed by the BPI in association with the communities, for the project AiC 2.0, the Ile de France region.
 
