@@ -93,10 +93,8 @@ In summary, the AiC 2.0 DSL allows to :
 ## Using the AiC 2.0 solution
 
 There are two ways to use AiC 2.0 :
-
-- request access to [the online beta test](https://goo.gl/forms/mwM85JuVu5oWSdHx2)
-- install the solution from the [Github sources](https://github.com/AiC-Project)
-
+- You can use beta version hosted on FIT UPMC Cloud Openstack testbed. You can access it here:  [AiC 2.0](https://aic.onelab.eu:8443/), it is free of charge, but you will need [to create OneLab account](https://portal.onelab.eu/register)
+- Install the solution from [the Github sources](https://github.com/AiC-Project)
 
 
 ## Consortium and Funding
