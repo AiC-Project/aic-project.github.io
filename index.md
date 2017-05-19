@@ -93,7 +93,7 @@ In summary, the AiC 2.0 DSL allows to :
 ## Using the AiC 2.0 solution
 
 There are two ways to use AiC 2.0 :
-- You can use beta version hosted on FIT UPMC Cloud Openstack testbed. You can access it here:  [AiC 2.0](https://aic.onelab.eu:8443/), it is free of charge, but you will need [to create OneLab account](https://portal.onelab.eu/register)
+- You can use beta version hosted on FIT UPMC Cloud Openstack testbed. You can access it here:  [AiC 2.0](https://aic.onelab.eu), it is free of charge, but you will need [to create OneLab account](https://portal.onelab.eu/register)
 - Install the solution from [the Github sources](https://github.com/AiC-Project)
 
 
@@ -105,7 +105,7 @@ The AiC 2.0 project consortium brings together the following industrial and acad
 - Alter Way, industrial partner and project pilot
 - Zenika, industrial partner
 - Liafa, academic partner
-- Lip6, academic partner
+- UPMC, academic partner
 - Thales, large user
 
 ![AiC Partners Logo](/img/AiC_partners_logo.png){:class="img-responsive"}

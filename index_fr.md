@@ -90,7 +90,7 @@ En résumé, le DSL AiC 2.0 permet de :
 
 Deux possibilités s'offrent à vous pour utiliser AiC 2.0 :
 
-- demander un accès à la version hébergée sur le testbed FIT UPMC Cloud Openstack. Accessible ici : [AiC 2.0](https://aic.onelab.eu:8443/). L'accès est gratuit mais requiert [une inscription au portail Onelab](https://portal.onelab.eu/register).
+- demander un accès à la version hébergée sur le testbed FIT UPMC Cloud Openstack. Accessible ici : [AiC 2.0](https://aic.onelab.eu). L'accès est gratuit mais requiert [une inscription au portail Onelab](https://portal.onelab.eu/register).
 
 - installer la solution depuis les sources [Github](https://github.com/AiC-Project)
 
